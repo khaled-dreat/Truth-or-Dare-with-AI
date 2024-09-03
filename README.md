@@ -22,4 +22,3 @@ I would like to express my gratitude to Purpose for their support and resources 
 - **HTML and CSS**: For designing the user interface.
 - **JavaScript**: To add interactivity to the user interface.
 
-#AIForFun #TruthOrDare #FacialRecognition #MachineLearning #AIProjects #PythonProgramming #OpenCV #TensorFlowLite #FlaskWebDevelopment #CreativeCoding #TechInnovation
