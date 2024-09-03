@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='main.css') }}">
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Truth Or Dare</h1>
+
+    <div class="card">
+      <!-- <img src="{{url_for('static', filename='pp.jpg')}}" class="card-media" /> -->
+      <div class="card-details">
+        <h2 class="card-head">Player Name: {{Name}}</h2>
+        <p>Player Selection: {{Selection}}</p>
+        <p>Question : {{question}} .</p>
+
+        <a href="{{ url_for('main') }}"><button>Done</button></a>
+      </div>
+    </div>
+</body>
+</html>>
